@@ -1,6 +1,6 @@
 # Tutorial: Running MAFFT in Galileo
 
-### Gettting started with MAFFT in Galileo
+### Getting started with MAFFT in Galileo
 
 To get started with Galileo, [log into your account](http://galileo.hypernetlabs.io/) using Firefox or Chrome.
 
