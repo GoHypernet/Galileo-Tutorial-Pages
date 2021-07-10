@@ -5,43 +5,80 @@ Simulation Software in Galileo
 
 Galileo supports a variety of simulation software. 
 
-Autodock Vina
+AutoDock Vina
 --------------
 
-Autodock Vina is a molecular dynamics simulation software. 
+`AutoDock Vina <http://vina.scripps.edu/>`_ is an open-source program 
+for doing molecular docking. It was designed and implemented by Dr. Oleg Trott in 
+the Molecular Graphics Lab at The Scripps Research Institute.
+
+`Galileo Tutorial Link <docs/autodock-vina-batch-public.html>`_ 
 
 Gromacs
 -------
 
-Gromacs is a GPU-accelerated molecular dynamics simulation engine. 
+`Gromacs <https://www.gromacs.org/>`_  is a versatile package to perform molecular 
+dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds 
+to millions of particles.
 
-Acellera
+It is primarily designed for biochemical molecules like proteins, lipids and nucleic 
+acids that have a lot of complicated bonded interactions, but since GROMACS is 
+extremely fast at calculating the nonbonded interactions (that usually dominate 
+simulations) many groups are also using it for research on non-biological systems, 
+e.g. polymers.
+
+ACEMD3
 --------
 
-Acellera is a highly efficient, GPU-accelerated, molecular dynamics engine
+`ACEMD Platform <https://www.acellera.com/products/molecular-dynamics-software-gpu-acemd/>`_ 
+is a complete and fast solution package, designed to run and analyze your molecular 
+dynamics (MD) simulations. It includes ACEMD, Parameterize and HTMD 
+packages. ACEMD is the MD engine that runs the simulation, Parameterize is a force 
+field parameterization tool for small molecules and HTMD is a Python package that 
+you can use to create systems, prepare them and, once ACEMD has finished simulating 
+those systems, analyze their trajectories.
 
 
 AmberTools
 ----------
 
-AmberTools is a molecular dynamics software suite.
+`AmberTools <https://ambermd.org/AmberTools.php>`_ consists of several independently 
+developed packages that work well by themselves, and with Amber20 itself. The suite can 
+also be used to carry out complete molecular dynamics simulations, with either explicit 
+water or generalized Born solvent models.
 
 HEC-RAS
 -------
 
-HEC-RAS is a hydrodynamics and hydrolics simulation software produced by the Army Corps or Engineers. 
+`HEC-RAS <https://www.hec.usace.army.mil/software/hec-ras/>`_ allows the user to perform 
+one-dimensional steady flow, one and two-dimensional unsteady flow calculations, sediment 
+transport/mobile bed computations, and water temperature/water quality modeling.
 
 EPA-SWMM
 --------
 
-EPA-SWMM is a hydrodynamics and hydrolics simulation kernal actively developed and maintained by the United States EPA.
+`EPA's Storm Water Management Model <https://www.epa.gov/water-research/storm-water-management-model-swmm>`_ 
+(SWMM) is used throughout the world for planning, analysis, and design related to 
+stormwater runoff, combined and sanitary sewers, and other drainage systems. It can 
+be used to evaluate gray infrastructure stormwater control strategies, such as pipes 
+and storm drains, and is a useful tool for creating cost-effective green/gray 
+hybrid stormwater control solutions. SWMM was developed to help support local, state, 
+and national stormwater management objectives to reduce runoff through infiltration 
+and retention, and help to reduce discharges that cause impairment of waterbodies.
 
 FLO-2D
 ------
 
-FLO-2D is a 2D fluid dynamics solver. 
+The `FLO-2D <https://flo-2d.com/>` model was conceptualized in 1986 to predict mudflow 
+hydraulics. The US Federal Emergency Management Agency (FEMA) supported the initial 
+model development and first application to Telluride, Colorado in 1988. Over the past 
+30 years, FLO-2D has become the most widely used commercially available flood model.
 
 Tuflow
 ------
 
-Tuflow is a software.
+`TUFLOW <https://www.tuflow.com/>`_ is a suite of advanced 1D/2D/3D computer simulation 
+software for flooding, urban drainage, coastal hydraulics, sediment transport, particle 
+tracking and water quality. With over 30 years of continuous development, TUFLOW is 
+internationally recognised as the industry leader for hydraulic modelling accuracy, 
+speed and workflow efficiency.

@@ -21,8 +21,6 @@ Mission Framework Tutorials
    :maxdepth: 2
    :caption: Contents:
 
-    Python <python.rst>
-	Julia <julia.rst>
-	R Language <rlang.rst>
+    Scrpting Languages <scriptinglanguages.rst>
 	Simulation Software <simulators.rst>
 	Web3 Infrastructure <web3.rst>
