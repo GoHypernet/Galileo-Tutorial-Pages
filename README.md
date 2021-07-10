@@ -3,10 +3,10 @@
 # Galileo Tutorial Pages
 Repository for hosted tutorial pages
 
-To get started, install `sphinx` and `myst-parser`.
+To get started, install `sphinx`, `sphinx-material` and `myst-parser`.
 
 ```
-python3 -m pip install sphinx myst-parser`
+python3 -m pip install sphinx myst-parser sphinx-material
 ```
 
 Then build the html files:
