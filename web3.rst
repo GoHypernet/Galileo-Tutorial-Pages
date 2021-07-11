@@ -1,5 +1,7 @@
 .. _web3:
 
+.. image:: /docs/images/galileo_pres.png
+
 Web3 Infrastructure Hosting in Galileo
 ======================================
 

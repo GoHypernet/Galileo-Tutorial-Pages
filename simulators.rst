@@ -1,5 +1,7 @@
 .. _simulators:
 
+.. image:: /docs/images/galileo_pres.png
+
 Simulation Software in Galileo
 ===============================
 

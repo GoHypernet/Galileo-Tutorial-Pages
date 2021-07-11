@@ -1,5 +1,7 @@
 .. _scriptinglanguages:
 
+.. image:: /docs/images/galileo_pres.png
+
 Common Scripting Languages
 ==========================
 

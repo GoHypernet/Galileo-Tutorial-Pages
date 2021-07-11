@@ -2,7 +2,7 @@
 
 .. title:: Galileo Tutorials
 
-.. image:: /docs/images/galileo_pres.png
+.. image:: /docs/images/galileo-docs-banner.png
 
 
 Galileo Tutorials (Work in Progress)
