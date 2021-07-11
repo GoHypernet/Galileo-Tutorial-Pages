@@ -1,6 +1,6 @@
 .. _scriptinglanguages:
 
-Comman Scripting Languages
+Common Scripting Languages
 ==========================
 
 Galileo supports both batch and interative sessions for a variety of common scripting
