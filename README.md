@@ -1,7 +1,7 @@
 [![alt](galileo_pres.png)](https://hypernetlabs.io/galileo)
 
 # Galileo Tutorial Pages
-Repository for hosted tutorial pages
+Repository for hosted [tutorial pages](https://galileo-tutorial-pages.readthedocs.io/en/latest/)
 
 To get started, install `sphinx`, `sphinx-material` and `myst-parser`.
 
