@@ -6,7 +6,7 @@ Repository for hosted tutorial pages
 To get started, install `sphinx`, `sphinx-material` and `myst-parser`.
 
 ```
-python3 -m pip install sphinx myst-parser sphinx-material
+python3 -m pip install -r requirements.txt
 ```
 
 Then build the html files:
