@@ -10,7 +10,7 @@ When you log into Galileo, the first thing you’ll see is your Dashboard:
 
 ![View of the Galileo Dashboard](images/common/dashboard.png)
 
-To run the Autodock example, start by navigating to the Missions tab using the side menu. Clone the Autodock example Mission from the Explore Missions tab. Use the filter to search for the mission by name and click "Apply".
+To run the AutoDock Vina Example, start by navigating to the Missions tab using the side menu. Clone the AutoDock_Vina_Example Mission from the Explore Missions tab. Use the filter to search for the mission by name and click "Apply".
 
 ![Find the public example mission by name](images/autodock/find_public.png)
 
@@ -18,21 +18,13 @@ Once you have found the correct Mission, click "View Mission".
 
 ![Click View Mission](images/autodock/example_mission.png)
 
-To clone the public Mission to your account, click the "Clone" button in the upper right corner of the interface. Choose between creating a public or private clone and also choose which Cargo Bay to use.
+To clone the public Mission to your account, click the "Clone" button in the upper right corner of the interface.
 
 ![Clone the mission](images/autodock/clone_mission.png)
 
 You will now see a cloned copy of the Mission in your Missions.
 
 ![The cloned copy](images/autodock/cloned_copy.png)
-
-### Let's take a look at our files
-
-This tutorial demonstrates how to use Autodock. Autodock creates multiple sequence alignments (MSA) of nucleotides or protein sequences (genomes) and aligns all the sequences together and visualizes how they differ:
-
-![Multiple sequence alignment of 18 protein sequences](images/autodock/protein.png)
-
-In our example folder, we have the file, “input.fasta”. The Autodock program takes as input a file of genome or protein sequences in a format called “FASTA”, hence the “input.fasta”. This file format is commonly used in bioinformatics.
 
 ### Running a job and collecting results
 
@@ -44,10 +36,6 @@ Once the computation is completed, the job will shut down and collect the result
 
 ![Download results](images/autodock/download.png)
 
-Let's take a look at the results.fasta:
-
-![Results](images/autodock/results.png)
-
 ### Contact us
 
-We hope this tutorial was helpful. Please let us know if you have any questions or any problems using Galileo. Your feedback is extremely important to us. Contact the team any time by tagging (@HypernetLabs) on our [forum](galileo-forum.hypernetlabs.io). 
+We hope this tutorial was helpful. Please let us know if you have any questions or any problems using Galileo. Your feedback is extremely important to us. Contact the team any time by tagging (@HypernetLabs) on our [forum](galileo-forum.hypernetlabs.io).
