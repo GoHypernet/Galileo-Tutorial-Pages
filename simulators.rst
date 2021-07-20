@@ -14,7 +14,7 @@ AutoDock Vina
 for doing molecular docking. It was designed and implemented by Dr. Oleg Trott in
 the Molecular Graphics Lab at The Scripps Research Institute.
 
-`Galileo Tutorial Link <docs/ambertools-batch-public.html>`_ 
+`Galileo Tutorial Link <docs/autodock-vina-batch-public.html>`_
 
 Gromacs
 -------
@@ -29,7 +29,7 @@ extremely fast at calculating the nonbonded interactions (that usually dominate
 simulations) many groups are also using it for research on non-biological systems,
 e.g. polymers.
 
-`Galileo Tutorial Link <docs/autodock-vina-batch-public.html>`_
+`Galileo Tutorial Link <docs/ambertools-batch-public.html>`_
 
 ACEMD3
 --------
