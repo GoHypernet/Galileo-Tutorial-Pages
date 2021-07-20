@@ -19,4 +19,4 @@ Get started with AutoDock Vina in Galileo by cloning and running our **AutoDock_
 
 ### Contact us
 
-We hope this tutorial was helpful. Please let us know if you have any questions or any problems using Galileo. Your feedback is extremely important to us. Contact the team any time by tagging (@HypernetLabs) on our [forum](galileo-forum.hypernetlabs.io).
+We hope this tutorial was helpful. Please let us know if you have any questions or any problems using Galileo. Your feedback is extremely important to us. Contact the team any time by tagging (@HypernetLabs) on our [forum](https://galileo-forum.hypernetlabs.io).
