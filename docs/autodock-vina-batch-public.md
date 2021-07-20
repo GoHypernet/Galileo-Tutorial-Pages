@@ -6,9 +6,7 @@ To get started with Galileo, [log into your account](http://galileo.hypernetlabs
 
 ### Understanding the user interface and cloning a Mission
 
-When you log into Galileo, the first thing you’ll see is your Dashboard:
-
-![View of the Galileo Dashboard](images/common/dashboard.png)
+![View of the Galileo Dashboard](images/autodock/autodock_vina.gif)
 
 To run the AutoDock Vina Example, start by navigating to the Missions tab using the side menu. Clone the AutoDock_Vina_Example Mission from the Explore Missions tab. Use the filter to search for the mission by name and click "Apply".
 
