@@ -2,6 +2,8 @@
 
 ![View of the Galileo Dashboard](images/autodock/autodock_vina.gif)
 
+### Getting Started
+
 Get started with AutoDock Vina in Galileo by cloning and running our **AutoDock_Vina_Example** Mission with a few simple steps:
 
 1.	Login to Galileo using FireFox or Chrome [(log into your account)](http://galileo.hypernetlabs.io/)
