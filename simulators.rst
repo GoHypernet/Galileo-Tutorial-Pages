@@ -7,17 +7,6 @@ Simulation Software in Galileo
 
 Galileo supports a variety of simulation software.
 
-ACEMD3
---------
-
-`ACEMD Platform <https://www.acellera.com/products/molecular-dynamics-software-gpu-acemd/>`_
-is a complete and fast solution package, designed to run and analyze your molecular
-dynamics (MD) simulations. It includes ACEMD, Parameterize and HTMD
-packages. ACEMD is the MD engine that runs the simulation, Parameterize is a force
-field parameterization tool for small molecules and HTMD is a Python package that
-you can use to create systems, prepare them and, once ACEMD has finished simulating
-those systems, analyze their trajectories.
-
 HEC-RAS
 -------
 

@@ -7,6 +7,27 @@ Simulation Software in Galileo
 
 Galileo supports a variety of molecular dynamics software.
 
+ACEMD3
+--------
+
+`ACEMD Platform <https://www.acellera.com/products/molecular-dynamics-software-gpu-acemd/>`_
+is a complete and fast solution package, designed to run and analyze your molecular
+dynamics (MD) simulations. It includes ACEMD, Parameterize and HTMD
+packages. ACEMD is the MD engine that runs the simulation, Parameterize is a force
+field parameterization tool for small molecules and HTMD is a Python package that
+you can use to create systems, prepare them and, once ACEMD has finished simulating
+those systems, analyze their trajectories.
+
+AmberTools
+----------
+
+`AmberTools <https://ambermd.org/AmberTools.php>`_ consists of several independently
+developed packages that work well by themselves, and with Amber20 itself. The suite can
+also be used to carry out complete molecular dynamics simulations, with either explicit
+water or generalized Born solvent models.
+
+`Galileo Tutorial Link <docs/ambertools-batch-public.html>`_
+
 AutoDock Vina
 --------------
 
@@ -29,12 +50,4 @@ extremely fast at calculating the nonbonded interactions (that usually dominate
 simulations) many groups are also using it for research on non-biological systems,
 e.g. polymers.
 
-AmberTools
-----------
-
-`AmberTools <https://ambermd.org/AmberTools.php>`_ consists of several independently
-developed packages that work well by themselves, and with Amber20 itself. The suite can
-also be used to carry out complete molecular dynamics simulations, with either explicit
-water or generalized Born solvent models.
-
-`Galileo Tutorial Link <docs/ambertools-batch-public.html>`_
+`Galileo Tutorial Link <docs/gromacs-batch-public.html>`_
