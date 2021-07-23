@@ -46,9 +46,18 @@ speed and workflow efficiency.
 MAFFT
 ------
 
-`MAFFT <https://mafft.cbrc.jp/alignment/software/>`_ MAFFT is a multiple sequence alignment program for
+`MAFFT <https://mafft.cbrc.jp/alignment/software/>`_ is a multiple sequence alignment program for
 unix-like operating systems.  It offers a range of multiple alignment methods, L-INS-i
 (accurate; for alignment of <∼200 sequences), FFT-NS-2 (fast; for alignment of <∼30,000
 sequences), etc.
 
 `Galileo Tutorial Link <docs/mafft-batch-public.html>`_
+
+Quantum ESPRESSO
+------
+
+`Quantum ESPRESSO <https://www.quantum-espresso.org>`_ is an integrated suite of Open-Source computer codes for electronic-structure calculations
+and materials modeling at the nanoscale. It is based on density-functional theory, plane
+waves, and pseudopotentials.
+
+`Galileo Tutorial Link <docs/quantum-espresso-batch-public.html>`_
