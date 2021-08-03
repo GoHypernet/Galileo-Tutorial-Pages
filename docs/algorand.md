@@ -1,4 +1,4 @@
-# Algorand Relay nodes in Galileo. 
+# Algorand Relay Nodes in Galileo. 
 
 Full Algorand tutorial and documentation of features coming here soon!
 
