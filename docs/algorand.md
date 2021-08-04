@@ -71,3 +71,5 @@ Synchronizing your job session from the remote snapshot will allow you to get yo
 The download time will be around a couple of hours depending on your network conditions and the current size of the archival blockchain. Once it has finished downloading, 
 start your relay node by clicking the "Start Relay Node button and wait for the node to catch up to the current block (usually <1 hour).
 
+**NOTE**: RClone's sync function will force the target directory to match the data source. If you sync to a target folder containing previous chain data, it will be overwritten. 
+
