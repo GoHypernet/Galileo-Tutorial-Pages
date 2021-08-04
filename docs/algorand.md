@@ -29,7 +29,8 @@ Once you have logged into your Algorand Relay Node Session, you can start your r
 state of the chain. This lengthy process is necessary to ensure the validity of all blocks downloaded from the peer network.
 
 You can check the progress of the synchronization process by clicking the "Get Node Status" button. Once the line that reads "Sync Time:" 
-reports 0s your node is completely synced to the Algorand network.
+reports 0s your node is completely synced to the Algorand network. Alternatively, check out the 
+[fast sync](#fast-relay-node-synchronization-from-storj-dcs-with-rclone-advanced-users) option for more advanced users. 
 
 Occasionally, there are protocol and node software upgrades that require updating your node binaries. Simply click the "Upgrade Node" button
 to check if there are any updates available. They will be downloaded and applied automatically.
@@ -68,8 +69,8 @@ Synchronizing your job session from the remote snapshot will allow you to get yo
 5. In the job session path, choose `/home/galileo/data/mainnet-v1.0`. 
 6. Click "sync remote storage to job session".
 
-The download time will be around a couple of hours depending on your network conditions and the current size of the archival blockchain. Once it has finished downloading, 
-start your relay node by clicking the "Start Relay Node button and wait for the node to catch up to the current block (usually <1 hour).
+The download time will be around a couple of hours depending on your network conditions and the [current size](https://howbigisalgorand.com/) of the archival blockchain. 
+Once it has finished downloading, start your relay node by clicking the "Start Relay Node button and wait for the node to catch up to the current block (usually <1 hour).
 
 **NOTE**: RClone's sync function will force the target directory to match the data source. If you sync to a target folder containing previous chain data, it will be overwritten. 
 
