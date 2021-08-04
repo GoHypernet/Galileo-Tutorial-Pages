@@ -36,11 +36,11 @@ to check if there are any updates available. They will be downloaded and applied
 ![Starting the Algorand Node](images/algorand/algorand_rpc.gif)
 
 When your Relay node is fully synchronized, you can use its RPC interface to interact with the Algorand network programmatically. The URL for your
-RPC endpoint can be obtained by right-clicking the link name "RPC API" under "Your API Endpoints". This URL along with the 
+RPC endpoint can be obtained by right-clicking the link named "RPC API" under "Your API Endpoints". This URL along with the 
 [algod.token](https://developer.algorand.org/docs/reference/sdks/#security-token) generated in the `data/` directory can be used to connect 
-to your Algorand node through one of Algorand's official SDKs. To download the algod.token file, open the workspace explorer widget in the upper 
-left corner, open the `data/` directory, then right-click the file named algod.token and select "download" (this will save it to your 
-local desktop).
+to your Algorand node through one of Algorand's official [SDKs](https://developer.algorand.org/docs/reference/sdks/). To download the algod.token 
+file, open the workspace explorer widget in the upper left corner, open the `data/` directory, then right-click the file named algod.token and 
+select "download" (this will save it to your local desktop).
 
 ### Logging Out and Changing Your Session Password
 
