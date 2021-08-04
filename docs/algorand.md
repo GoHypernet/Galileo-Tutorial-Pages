@@ -33,10 +33,11 @@ to check if there are any updates available. They will be downloaded and applied
 ![Starting the Algorand Node](images/algorand/algorand_rpc.gif)
 
 When your Relay node is fully synchronized, you can use its RPC interface to interact with the Algorand network programmatically. The URL for your
-RPC endpoint can be obtained by right-clicking the link name "RPC API" under "Your API Endpoints". This URL along with the algod.token generated
-in the `data/` directory can be used to connect to your Algorand node through one of Algorand's official SDKs. To download the algod.token file, 
-open the workspace explorer widget in the upper left corner, open the `data/` directory, then right-click the file named algod.token and select
-"download" (this will save it to your local desktop).
+RPC endpoint can be obtained by right-clicking the link name "RPC API" under "Your API Endpoints". This URL along with the 
+[algod.token](https://developer.algorand.org/docs/reference/sdks/#security-token) generated in the `data/` directory can be used to connect 
+to your Algorand node through one of Algorand's official SDKs. To download the algod.token file, open the workspace explorer widget in the upper 
+left corner, open the `data/` directory, then right-click the file named algod.token and select "download" (this will save it to your 
+local desktop).
 
 ### Logging Out and Changing Your Session Password
 
@@ -50,9 +51,9 @@ old password, then entering a new one. WARNING: If you change your password, Hyp
 
 ![Starting the Algorand Node](images/algorand/algorand_fast_sync.gif)
 
-Hypernet Labs maintains weekly snapshots of the Algorand Archival Chain in Storj DCS. An integrated widget is included in the Galileo IDE of your
-job session with a pre-registered access grant (read permission only) to the snapshot. Synchronizing your job session from the remote snapshot will 
-allow you to get your relay node up and running in hours rather than days. 
+Hypernet Labs maintains weekly snapshots of the Algorand Archival Chain in [Storj DCS](https://storj.io/signup/?partner=hypernet). An integrated
+RClone widget is included in the Galileo IDE of your job session with a pre-registered access grant (read permission only) to the snapshot.
+Synchronizing your job session from the remote snapshot will allow you to get your relay node up and running in hours rather than days. 
 
 1. Open the Storj DCS widget and ensure you are pointing at the "Algorand Fast Sync" RClone remote. 
 2. Select "algorandsnapshot" from the bucket list. 
