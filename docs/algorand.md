@@ -1,6 +1,6 @@
-# Algorand Relay Nodes in Galileo. 
+# Algorand Relay Nodes in Galileo
 
-Galileo makes launching and maintaining your Algorand relay node easy. Your node is fully non-custodial and comes with and integrated 
+Galileo makes launching and maintaining your Algorand relay node easy. Your node is fully non-custodial and comes with an integrated 
 development environment which includes python, go, and node runtimes for dApp development. Your personal RPC API is hosted and protected 
 by the [Cloudflare](https://www.cloudflare.com/products/tunnel/) edge network so you don't have to worry about port firewall configurations.
 Check out the information below to learn more about the Algorand Mission framework in Galileo. 
@@ -26,12 +26,12 @@ Check out the information below to learn more about the Algorand Mission framewo
 
 Once you have logged into your Algorand Relay Node Session, you can start your relay node by clicking the 
 "Start Relay Node" button under the "Quick Access" title. Your Relay node will likely take a few days to completely sync the full
-state of the chain. The process is necessary to ensure the validity of all block downloaded from the peer network.
+state of the chain. The process is necessary to ensure the validity of all blocks downloaded from the peer network.
 
 You can check the progress of the synchronization process by clicking the "Get Node Status" button. Once the line that reads "Sync Time:" 
 reports 0s your node is completely synced to the Algorand network.
 
-Occasionally there are protocol and node software upgrades that require updating your node binaries. Simply click the "Upgrade Node" button
+Occasionally, there are protocol and node software upgrades that require updating your node binaries. Simply click the "Upgrade Node" button
 to check if there are any updates available. They will be downloaded and applied automatically.
 
 ### Connecting to Your Algorand Relay RPC Endpoint
@@ -51,7 +51,7 @@ select "download" (this will save it to your local desktop).
 
 Galileo will set a secure random password for your job session at runtime. This password is stored in an encrypted format by Galileo until requested
 by an authenticated user. However, the user can change their job password by clicking the key icon in the Galileo IDE Dashboard, confirming their
-old password, then entering a new one. WARNING: If you change your password, Hypernet Labs cannot recover it for you. Additionally, a user can log out of their current session from this page as well. 
+old password, then entering a new one. **WARNING**: If you change your password, Hypernet Labs cannot recover it for you. Additionally, a user can log out of their current session from this page as well. 
 
 ### Fast Relay Node Synchronization from Storj DCS with RClone (Advanced Users)
 
