@@ -17,6 +17,9 @@ Check out the information below to learn more about the Algorand Mission framewo
 6. Enter your username and paste your password into the login form. 
 7. You are now logged into your Algorand Relay Node session. 
 
+**NOTE**: It can sometimes take up to 5 minutes before the URL for your tunnel is active in the Cloudflare DNS. So if your browser cannot
+ connect immediately, try again in a couple of minutes. 
+
 ### Starting the Algorand Relay Node
 
 ![Starting the Algorand Node](images/algorand/algorand_node_start.gif)
