@@ -64,10 +64,10 @@ Synchronizing your job session from the remote snapshot will allow you to get yo
 1. Open the Storj DCS widget and ensure you are pointing at the "Algorand Fast Sync" RClone remote. 
 2. Select "algorandsnapshot" from the bucket list. 
 3. Choose the "SYNC" operation from the actions list.
-4. In the remote storage path, choose the root path. 
+4. In the remote storage path, choose the root path of the bucket. 
 5. In the job session path, choose `/home/galileo/data/mainnet-v1.0`. 
 6. Click "sync remote storage to job session".
 
-The download time will be a couple of hours, depending on the current size of the archival blockchain. Once it has finished downloading, start your
-relay node by clicking the "Start Relay Node button and wait for the node to catch up to the current block (usually <1 hour).
+The download time will be around a couple of hours depending on your network conditions and the current size of the archival blockchain. Once it has finished downloading, 
+start your relay node by clicking the "Start Relay Node button and wait for the node to catch up to the current block (usually <1 hour).
 
