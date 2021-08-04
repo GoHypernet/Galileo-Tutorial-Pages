@@ -1,6 +1,6 @@
 # Algorand Relay Nodes in Galileo. 
 
-Galileo makes launching and maintaining your Algorand Relay node easy. Your node is fully non-custodial and comes with and integrated 
+Galileo makes launching and maintaining your Algorand relay node easy. Your node is fully non-custodial and comes with and integrated 
 development environment which includes python, go, and node runtimes for dApp development. Your personal RPC API is hosted and protected 
 by the Cloudflare edge network so you don't have to worry about port firewall configurations. Check out the information below to learn more 
 about the Algorand Mission framework in Galileo. 
