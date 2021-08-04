@@ -25,8 +25,8 @@ Check out the information below to learn more about the Algorand Mission framewo
 ![Starting the Algorand Node](images/algorand/algorand_node_start.gif)
 
 Once you have logged into your Algorand Relay Node Session, you can start your relay node by clicking the 
-"Start Relay Node" button under the "Quick Access" title. Your Relay node will likely take a few days to completely sync the full
-state of the chain. The process is necessary to ensure the validity of all blocks downloaded from the peer network.
+"Start Relay Node" button under the "Quick Access" title. Your relay node will likely take a few days to completely sync the full
+state of the chain. This lengthy process is necessary to ensure the validity of all blocks downloaded from the peer network.
 
 You can check the progress of the synchronization process by clicking the "Get Node Status" button. Once the line that reads "Sync Time:" 
 reports 0s your node is completely synced to the Algorand network.
