@@ -16,7 +16,7 @@ permissionless blockchain, the Algorand Foundation has a vision for an inclusive
 ecosystem that provides an opportunity for everyone to harness the potential of an 
 equitable and truly borderless economy.
 
-- [Running an Algorand node in Galileo](docs/algorand.md)
+- [Running an Algorand node in Galileo](/docs/algorand.md)
 
 ## Tezos
 
