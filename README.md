@@ -1,16 +1,12 @@
-[![alt](galileo_pres.png)](https://hypernetlabs.io/galileo)
+<p align="center">
+  <img src="/docs/images/galileo-docs-banner.png" width="500">
+</p>
 
-# Galileo Tutorial Pages
-Repository for hosted [tutorial pages](https://galileo-tutorial-pages.readthedocs.io/en/latest/)
 
-To get started, install `sphinx`, `sphinx-material` and `myst-parser`.
+# Galileo Tutorials (Work in Progress)
 
-```
-python3 -m pip install -r requirements.txt
-```
-
-Then build the html files:
-
-```
-make html
-```
+This repository contains tutorials for officially supported
+`Galileo <https://hypernetlabs.io/galileo/>`_ Mission framework types.
+Mission types are broken down into categories, such as simulation software,
+and web3 infrastructure, etc. Use the search tool to find the framework
+type you are looking for.
