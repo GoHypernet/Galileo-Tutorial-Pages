@@ -23,7 +23,7 @@ developed packages that work well by themselves, and with Amber20 itself. The su
 also be used to carry out complete molecular dynamics simulations, with either explicit
 water or generalized Born solvent models.
 
-- [Galileo Tutorial Link](/docs/ambertools-batch-public.html)
+- [Galileo Tutorial Link](/docs/ambertools-batch-public.md)
 
 ## AutoDock Vina
 
@@ -31,7 +31,7 @@ water or generalized Born solvent models.
 for doing molecular docking. It was designed and implemented by Dr. Oleg Trott in
 the Molecular Graphics Lab at The Scripps Research Institute.
 
-- [Galileo Tutorial Link](/docs/autodock-vina-batch-public.html)
+- [Galileo Tutorial Link](/docs/autodock-vina-batch-public.md)
 
 ## Gromacs
 
@@ -45,4 +45,4 @@ extremely fast at calculating the nonbonded interactions (that usually dominate
 simulations) many groups are also using it for research on non-biological systems,
 e.g. polymers.
 
-- [Galileo Tutorial Link](/docs/gromacs-batch-public.html)
+- [Galileo Tutorial Link](/docs/gromacs-batch-public.md)
