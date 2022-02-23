@@ -1,30 +1,30 @@
-# Algorand Relay Nodes in Galileo
+# Etherum Nodes in Galileo
 
-Galileo makes launching and maintaining your Algorand relay node easy. Your node is fully non-custodial and comes with an integrated 
+Galileo makes launching and maintaining your Etherum Geth node easy. Your node is fully non-custodial and comes with an integrated 
 development environment which includes python, go, and nodejs runtimes for dApp development. Your personal RPC API is hosted and protected 
 by the [Cloudflare](https://www.cloudflare.com/products/tunnel/) edge network so you don't have to worry about port firewall configurations.
-Check out the information below to learn more about the Algorand Mission framework in Galileo. 
+Check out the information below to learn more about the Ethereum Mission framework in Galileo. 
 
-### Launching an Algorand Node Session
+### Launching an Etherum Node Session
 
-![Lauching an Algorand Session](images/algorand/algorand_launch.gif)
+![Launching an Ethereum Session](images/ethereum/ethereum_launch.gif)
 
 1. Navigate to the Missions tab on the left-hand side of the application and click the "Your Missions" sub-tab. 
 2. Click the "Create a Mission" button on the upper right-hand side of the Missions main page. 
-3. Choose the Algorand Mission type, give the Mission a name, and then click "Create & Run Mission". 
-4. Select the Hypernet - Algorand Station, then wait for your new Mission job instance to start. 
+3. Choose the Ethereum Mission type, give the Mission a name, and then click "Create & Run Mission". 
+4. Select the Hypernet - Etherum Station, then wait for your new Mission job instance to start. 
 5. Once your job says "Job in Progress", request your automatically generated job password and click "Go to Tunnel URL". 
 6. Enter your username and paste your password into the login form. 
-7. You are now logged into your Algorand Relay Node session. 
+7. You are now logged into your Ethereum Node session. 
 
 **NOTE**: It can sometimes take up to 5 minutes before the URL for your tunnel is active in the Cloudflare DNS. So if your browser cannot
  connect immediately, try again in a couple of minutes. 
 
-### Starting the Algorand Relay Node
+### Starting Geth from the Galileo IDE Dashboard
 
-![Starting the Algorand Node](images/algorand/algorand_node_start.gif)
+![Starting the Ethereum Node](images/ethereum/ethereum_node_start.gif)
 
-Once you have logged into your Algorand Relay Node Session, you can start your relay node by clicking the 
+Once you have logged into your Ethereum Node Session, you can start your node by clicking the 
 "Start Relay Node" button under the "Quick Access" title. Your relay node will likely take a few days to completely sync the full
 state of the chain. This lengthy process is necessary to ensure the validity of all blocks downloaded from the peer network.
 
@@ -35,9 +35,9 @@ reports 0s your node is completely synced to the Algorand network. Alternatively
 Occasionally, there are protocol and node software upgrades that require updating your node binaries. Simply click the "Upgrade Node" button
 to check if there are any updates available. They will be downloaded and applied automatically.
 
-### Connecting to Your Algorand Relay RPC Endpoint
+### Connecting to Your RPC Endpoint
 
-![Connecting to the Algorand Node](images/algorand/algorand_rpc.gif)
+![Connecting to the Geth Node](images/algorand/algorand_rpc.gif)
 
 When your Relay node is fully synchronized, you can use its RPC interface to interact with the Algorand network programmatically. The URL for your
 RPC endpoint can be obtained by right-clicking the link named "RPC API" under "Your API Endpoints". This URL along with the 
@@ -48,7 +48,7 @@ select "download" (this will save it to your local desktop).
 
 ### Logging Out and Changing Your Session Password
 
-![Logging out of Algorand](images/algorand/algorand_logout.gif)
+![Logging out of Ethereum](images/algorand/algorand_logout.gif)
 
 Galileo will set a secure random password for your job session at runtime. This password is stored in an encrypted format by Galileo until requested
 by an authenticated user. However, the user can change their job password by clicking the key icon in the Galileo IDE Dashboard, confirming their
@@ -56,7 +56,7 @@ old password, then entering a new one. **WARNING**: If you change your password,
 
 ### Fast Relay Node Synchronization from Storj DCS with RClone (Advanced Users)
 
-![Algorand Fast Sync](images/algorand/algorand_fast_sync.gif)
+![Ethereum Fast Sync](images/algorand/algorand_fast_sync.gif)
 
 Hypernet Labs maintains weekly snapshots of the Algorand Archival Chain in [Storj DCS](https://storj.io/signup/?partner=hypernet). An integrated
 RClone widget is included in the Galileo IDE of your job session with a pre-registered access grant (read permission only) to the snapshot.
