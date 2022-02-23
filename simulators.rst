@@ -43,6 +43,8 @@ tracking and water quality. With over 30 years of continuous development, TUFLOW
 internationally recognised as the industry leader for hydraulic modelling accuracy,
 speed and workflow efficiency.
 
+`Galileo Tutorial Link <docs/tuflow-tutorial.html>`_
+
 MAFFT
 ------
 
