@@ -62,12 +62,13 @@ Hypernet Labs maintains weekly snapshots of the Algorand Archival Chain in [Stor
 RClone widget is included in the Galileo IDE of your job session with a pre-registered access grant (read permission only) to the snapshot.
 Synchronizing your job session from the remote snapshot will allow you to get your relay node up and running in hours rather than days. 
 
-1. Open the Storj DCS widget and ensure you are pointing at the "Algorand Fast Sync" RClone remote. 
-2. Select "algorandsnapshot" from the bucket list. 
-3. Choose the "SYNC" operation from the actions list.
-4. In the remote storage path, choose the root path of the bucket. 
-5. In the job session path, choose `/home/galileo/data/mainnet-v1.0`. 
-6. Click "sync remote storage to job session".
+1. Ensure that your Algorand node is stopped by clicking the "Stop Relay Node" button. 
+2. Open the Storj DCS widget and ensure you are pointing at the "Algorand Fast Sync" RClone remote. 
+3. Select "algorandsnapshot" from the bucket list. 
+4. Choose the "SYNC" operation from the actions list.
+5. In the remote storage path, choose the root path of the bucket. 
+6. In the job session path, choose `/home/galileo/data/mainnet-v1.0`. 
+7. Click "sync remote storage to job session".
 
 The download time will be around a couple of hours depending on your network conditions and the [current size](https://howbigisalgorand.com/) of the archival blockchain. 
 Once it has finished downloading, start your relay node by clicking the "Start Relay Node button and wait for the node to catch up to the current block (usually <1 hour).
