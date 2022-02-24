@@ -10,11 +10,13 @@ models in Galileo, you must first compress it into a zip folder (which will auto
 ![Zip up your Tuflow model](images/tuflow/tuflow-model-compression.gif)
 
 Next, log into [Galileo](https://galileo.hypernetlabs.io) and set up a new Tuflow Mission. You must select the version of
-Tuflow you wish to run, the name of the .bat script that will start you analysis, the directory the .bat script can be found
-in after the zip file is decompressed, and the IP address or URL of your Tuflow license server. The default license server
-address is set to 10.0.0.3 which is a subnet address of Hypernet Labs' licensing server that is only accessible on Windows VM
-resources supplied by Hypernet Labs. You can configure the license address to point at your own license server if it has 
-a publicly reachable IP address or URL or if you are running your own Galileo Landing Zone on your own hardware resources.
+Tuflow you wish to run, set the name of the .bat script that will start you analysis, the directory the .bat script can 
+be found in after the zip file is decompressed, and the IP address or URL of your Tuflow license server. 
+
+The default license server address is set to 10.0.0.3 which is a subnet address of Hypernet Labs' licensing server that 
+is only accessible on Windows VM resources supplied by Hypernet Labs. You can configure the license address to point at 
+your own license server if it has a publicly reachable IP address or URL or if you are running your own Galileo Landing 
+Zone on your own hardware resources.
 
 ![Make a Tuflow mission](images/tuflow/tuflow-mission-setup.gif)
 
@@ -33,6 +35,12 @@ Once your job is finished, you can download the results from that run from anywh
 examine the results.
 
 ![Retrieve your results](images/tuflow/tuflow-results-download.gif)
+
+## Cloning an example
+
+If you don't have a model to start with, you can clone 
+[this one](https://galileo.hypernetlabs.io/public-missions/d0a8db52-fb79-42f7-8060-d329feecd349) to you account and run it 
+for free without a license.
 
 ### Contact us
 
