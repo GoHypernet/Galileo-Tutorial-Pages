@@ -42,6 +42,13 @@ If you don't have a model to start with, you can clone
 [this one](https://galileo.hypernetlabs.io/public-missions/d0a8db52-fb79-42f7-8060-d329feecd349) to you account and run it 
 for free without a license.
 
+## Tuflow as a Container
+
+Check out Hypernet Labs' containerization of the Tuflow classic simulator software 
+[here](https://github.com/GoHypernet/Galileo-Tuflow-Framework). 
+
 ### Contact us
 
-We hope this tutorial was helpful. Please let us know if you have any questions or any problems using Galileo. Your feedback is extremely important to us. Contact the team any time by tagging (@HypernetLabs) on our [forum](https://galileo-forum.hypernetlabs.io).
+We hope this tutorial was helpful. Please let us know if you have any questions or any problems using Galileo. Your 
+feedback is extremely important to us. Contact the team any time by tagging (@HypernetLabs) on our 
+[forum](https://galileo-forum.hypernetlabs.io).
