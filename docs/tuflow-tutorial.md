@@ -10,13 +10,13 @@ models in Galileo, you must first compress it into a zip folder (which will auto
 ![Zip up your Tuflow model](images/tuflow/tuflow-model-compression.gif)
 
 Next, log into [Galileo](https://galileo.hypernetlabs.io) and set up a new Tuflow Mission. You must select the version of
-Tuflow you wish to run, set the name of the .bat script that will start you analysis, the directory the .bat script can 
+Tuflow you wish to run, set the name of the .bat script that will start your analysis, the directory the .bat script can 
 be found in after the zip file is decompressed, and the IP address or URL of your Tuflow license server. 
 
 The default license server address is set to 10.0.0.3 which is a subnet address of Hypernet Labs' licensing server that 
 is only accessible on Windows VM resources supplied by Hypernet Labs. You can configure the license address to point at 
 your own license server if it has a publicly reachable IP address or URL or if you are running your own Galileo Landing 
-Zone on your own hardware resources.
+Zone on your own hardware resources that have network access to your license server.
 
 ![Make a Tuflow mission](images/tuflow/tuflow-mission-setup.gif)
 
@@ -25,9 +25,9 @@ your local machine, rezip, then upload it again into the Mission's file manager 
 
 ![Upload your zipped Tuflow model](images/tuflow/tuflow-model-upload.gif)
 
-Search for a Station to run on using the Mission Resource Finder. This tool will also display the price in credits per hour
-to run on the hardware provided by that station. You can check on the progress of you job once it is in the running state by 
-querying the process information and standard out. 
+Search for a Station to deploy your analysis to using the Mission Resource Finder. This tool will also display the price in 
+credits per hour to run on the hardware provided by that station. You can check on the progress of you job once it is in the 
+running state by querying the process information and standard out. 
 
 ![Find a station to run on](images/tuflow/tuflow-station-select.gif)
 
@@ -44,7 +44,7 @@ for free without a license.
 
 ## Tuflow as a Container
 
-Check out Hypernet Labs' containerization of the Tuflow classic simulator software 
+Check out Hypernet Labs' containerization of the Tuflow Classic simulator software 
 [here](https://github.com/GoHypernet/Galileo-Tuflow-Framework). 
 
 ### Contact us
